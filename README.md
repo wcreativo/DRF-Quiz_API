@@ -1,4 +1,4 @@
-# DRF
+# QUiZ API - DRF
 
 ## Setup
 
@@ -6,7 +6,7 @@ The first thing to do is to clone the repository:
 
 ```sh
 $ git clone https://github.com/wcreativo/basic_drf_settings.git
-$ cd basic_drf_settings
+$ cd quiz_api
 ```
 
 Create a virtual environment to install dependencies in and activate it:
@@ -24,7 +24,7 @@ Then install the dependencies:
 
 Once `pip` has finished downloading the dependencies:
 ```sh
-(env)$ cd basic_drf_settings
+(env)$ cd quiz_api
 (env)$ python manage.py runserver
 ```
 And navigate to `http://127.0.0.1:8000/swagger/`.
@@ -55,4 +55,4 @@ And navigate to `http://127.0.0.1:8000/swagger/`.
         "--ignore=E501"
     ]
 }
-```# quiz_api
+
