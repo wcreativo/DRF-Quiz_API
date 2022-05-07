@@ -27,7 +27,7 @@ BASE_APPS = [
     "django.contrib.staticfiles",
 ]
 
-LOCAL_APPS = []
+LOCAL_APPS = ['apps.quiz']
 
 THIRD_APPS = ["drf_yasg"]
 

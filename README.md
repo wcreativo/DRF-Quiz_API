@@ -5,7 +5,7 @@
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/wcreativo/basic_drf_settings.git
+$ git clone https://github.com/wcreativo/quiz_api.git
 $ cd quiz_api
 ```
 
