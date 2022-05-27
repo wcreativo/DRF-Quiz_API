@@ -29,7 +29,7 @@ BASE_APPS = [
 
 LOCAL_APPS = ['apps.quiz']
 
-THIRD_APPS = ["drf_yasg"]
+THIRD_APPS = ["drf_yasg", "rest_framework"]
 
 INSTALLED_APPS = BASE_APPS + LOCAL_APPS + THIRD_APPS
 

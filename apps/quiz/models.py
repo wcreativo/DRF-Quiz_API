@@ -25,6 +25,9 @@ class Quizzes(models.Model):
     title = models.CharField(max_length=255, verbose_name='Quiz title')
     category = models.ForeignKey(Category, on_delete=models.DO_NOTHING)
 
+    def __str__(self) -> str:
+        return self.title
+
 
 class Question(models.Model):
     class Meta:
@@ -49,6 +52,12 @@ class Question(models.Model):
     date_created = models.DateTimeField(auto_now_add=True, verbose_name=_('Date Created'))
     is_active = models.BooleanField(default=False, verbose_name=_('Active Status'))
 
+    def __str__(self) -> str:
+        return self.title
+
 
 class Answer(models.Model):
     question = models.ForeignKey(Question, related_name='answer', on_delete=models.DO_NOTHING)
+
+    def __str__(self) -> str:
+        return self.question
