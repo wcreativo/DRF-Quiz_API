@@ -1,4 +1,4 @@
-# QUiZ API - DRF
+# DRF - QUiZ API
 
 ## Setup
 
